@@ -7,7 +7,7 @@ function calcularIva(precioSinIva){
 
 let precioProducto;
 do{
-    precioProductoIngresado = prompt('Ingrese el precio del producto, para terminar escriba ESC');
+    precioProductoIngresado = prompt('Ingrese el precio de un producto, para terminar escriba ESC');
     const precioProducto = parseFloat(precioProductoIngresado);
     if (precioProducto>0) {
         alert('El precio con IVA es: '+ calcularIva(precioProducto))
