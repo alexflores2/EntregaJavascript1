@@ -1,0 +1,74 @@
+[{
+    "id": 1,
+    "tipo": "Remera",
+    "nombre": "God of War",
+    "precio": 1400,
+    "foto": "./media/GOW.jpg"
+}, {
+    "id": 2,
+    "tipo": "Remera",
+    "nombre": "Gta 5",
+    "precio": 1400,
+    "foto": "./media/gta5.jpg"
+}, {
+    "id": 3,
+    "tipo": "Remera",
+    "nombre": "Untcharted",
+    "precio": 1000,
+    "foto": "./media/untcharted.jpg"
+}, {
+    "id": 4,
+    "tipo": "Remera",
+    "nombre": "Gotham Knights",
+    "precio": 1000,
+    "foto": "./media/gotham.jpg"
+}, {
+    "id": 5,
+    "tipo": "Remera",
+    "nombre": "Onepiece",
+    "precio": 1400,
+    "foto": "./media/onepiece.jpg"
+}, {
+    "id": 6,
+    "tipo": "Remera",
+    "nombre": "Spiderman",
+    "precio": 1500,
+    "foto": "./media/spiderman.jpg"
+}, {
+    "id": 7,
+    "tipo": "Buzo",
+    "nombre": "Resident Evil 2",
+    "precio": 4500,
+    "foto": "./media/re2.jpg"
+}, {
+    "id": 8,
+    "tipo": "Buzo",
+    "nombre": "Resident Evil 4",
+    "precio": 3800,
+    "foto": "./media/re4.jpg"
+}, {
+    "id": 9,
+    "tipo": "Buzo",
+    "nombre": "Assassins Creed",
+    "precio": 3800,
+    "foto": "./media/ac.jpg"
+}, {
+    "id": 10,
+    "tipo": "Buzo",
+    "nombre": "Sonic",
+    "precio": 3800,
+    "foto": "./media/sonic.jpg"
+}, {
+    "id": 11,
+    "tipo": "Pantalon",
+    "nombre": "Doom Eternal",
+    "precio": 2900,
+    "foto": "./media/doom.jpg"
+}, {
+    "id": 12,
+    "tipo": "Short",
+    "nombre": "Monkey Island",
+    "precio": 1200,
+    "foto": "./media/monkey.jpg"
+}]
+

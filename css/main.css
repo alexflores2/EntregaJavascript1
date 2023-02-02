@@ -5,7 +5,6 @@
           box-sizing: border-box;
 }
 
-/* === GENERAL === */
 body {
   background-image: url(../media/bg.jpg);
   background-repeat: space repeat center;
@@ -13,7 +12,7 @@ body {
   font-family: "Oswald", sans-serif;
 }
 
-.boton {
+.botones {
   font-size: 18px;
   font-family: oswald, sans-serif;
   width: 50%;
@@ -32,7 +31,8 @@ p {
   font-size: 20px;
 }
 
-ol, ul {
+ol,
+ul {
   padding-left: 0px;
 }
 
@@ -65,10 +65,6 @@ header nav div .logo {
 
 header nav div a {
   margin: 20px;
-}
-
-header h1 {
-  display: none;
 }
 
 footer {
@@ -125,14 +121,47 @@ footer .footer-content .footer-redes li i {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#container-general #ordenar-modal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#container-general #ordenar-modal #seleccion {
+  width: 20%;
+  margin: 20px 0px 30px 80px;
+}
+
+#container-general #ordenar-modal .modal-carrito {
+  width: 15%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+#container-general #ordenar-modal .modal-carrito i {
+  font-size: 20px;
+}
+
+#container-general #ordenar-modal .table {
+  text-align: center;
+}
+
+#container-general #ordenar-modal #gastoTotal {
+  font-size: 18px;
 }
 
 #container-general #section-productos {
   width: 80%;
+  margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -152,7 +181,6 @@ footer .footer-content .footer-redes li i {
 }
 
 #container-general #section-productos .card-product .img-container {
-  overflow: hidden;
   position: relative;
 }
 
@@ -170,41 +198,5 @@ footer .footer-content .footer-redes li i {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-}
-
-#container-general #section-carrito {
-  width: 30%;
-  height: 30%;
-  margin: 30px;
-  padding: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  background-color: #d7c1d7d5;
-  border-radius: 10px;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 200px;
-}
-
-#container-general #section-carrito div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: 10px;
-}
-
-#container-general #section-carrito div h2, #container-general #section-carrito div h3 {
-  font-size: 25px;
 }
 /*# sourceMappingURL=main.css.map */
